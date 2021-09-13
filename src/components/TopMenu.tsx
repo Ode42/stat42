@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import LinkButton from "./LinkButton";
-import NewStat from "./NewStat";
+import "./../styles/menu.css"
 
 const TopMenu = () => {
     return (
-        <div className="topMenu">
+        <header className="topmenu">
             <h1>Stat42</h1>
             <LinkButton linkText="New statistics" linkTo="/newstat" />
-        </div>
+        </header>
     );
 }
 
