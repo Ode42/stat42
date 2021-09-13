@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Frame from "./components/Frame";
+import StatRouter from "./components/StatRouter";
+import Frame from './components/Frame';
 
 function App() {
   return (
     <div className="App">
-      <Frame />
+      <StatRouter />
     </div>
   );
 }
